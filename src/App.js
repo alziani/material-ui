@@ -1,5 +1,14 @@
+import { Dialog } from "@mui/material";
 import "./App.css";
-import Tabsmui from "./components/Tabsmui";
+import Accordionmui from "./components/Accordionmui";
+// import Listmui from "./components/Listmui";
+// import Containermui from "./components/Containermui";
+// import Linkmui from "./components/Linkmui";
+// import Modalmui from "./components/Modalmui";
+// import Dialogmui from "./components/Dialogmui";
+// import Cardmui from "./components/Cardmui";
+// import Menumui from "./components/Menumui";
+// import Tabsmui from "./components/Tabsmui";
 // import AppBarmui from "./components/AppBarmui";
 // import Radiomui from "./components/Radiomui";
 // import Selectmui from "./components/Selectmui";
@@ -19,7 +28,15 @@ function App() {
     // <Selectmui />
     // <Radiomui />
     // <AppBarmui />
-    <Tabsmui />
+    // <Tabsmui />
+    // <Menumui />
+    // <Cardmui />
+    // <Dialogmui />
+    // <Modalmui />
+    // <Linkmui />
+    // <Containermui />
+    // <Listmui />
+    <Accordionmui />
   );
 }
 
