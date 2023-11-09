@@ -1,6 +1,13 @@
-import { Dialog } from "@mui/material";
 import "./App.css";
-import Accordionmui from "./components/Accordionmui";
+import ValidationFormmui from "./components/ValidationFormmui";
+// import Imglistmui from "./components/Imglistmui";
+// import Ratingmui from "./components/Ratingmui";
+// import ProgressBarmui from "./components/ProgressBarmui";
+// import Snackbarmui from "./components/Snackbarmui";
+// import Alertmui from "./components/Alertmui";
+// import Drawermui from "./components/Drawermui";
+// import Autocompletmui from "./components/Autocompletmui";
+// import Accordionmui from "./components/Accordionmui";
 // import Listmui from "./components/Listmui";
 // import Containermui from "./components/Containermui";
 // import Linkmui from "./components/Linkmui";
@@ -36,7 +43,15 @@ function App() {
     // <Linkmui />
     // <Containermui />
     // <Listmui />
-    <Accordionmui />
+    // <Accordionmui />
+    // <Autocompletmui />
+    // <Drawermui />
+    // <Alertmui />
+    // <Snackbarmui />
+    // <ProgressBarmui />
+    // <Ratingmui />
+    // <Imglistmui />
+    <ValidationFormmui />
   );
 }
 
