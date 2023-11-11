@@ -1,5 +1,6 @@
 import "./App.css";
-import ValidationFormmui from "./components/ValidationFormmui";
+import DataGridmui from "./components/DataGridmui";
+// import ValidationFormmui from "./components/ValidationFormmui";
 // import Imglistmui from "./components/Imglistmui";
 // import Ratingmui from "./components/Ratingmui";
 // import ProgressBarmui from "./components/ProgressBarmui";
@@ -51,7 +52,8 @@ function App() {
     // <ProgressBarmui />
     // <Ratingmui />
     // <Imglistmui />
-    <ValidationFormmui />
+    // <ValidationFormmui />
+    <DataGridmui />
   );
 }
 
