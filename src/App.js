@@ -1,5 +1,8 @@
 import "./App.css";
-import DataGridmui from "./components/DataGridmui";
+import Rzsponsivenessmui from "./components/Rzsponsivenessmui";
+// import GridSystemmui from "./components/GridSystemmui";
+// import Iconsmui from "./components/Iconsmui";
+// import DataGridmui from "./components/DataGridmui";
 // import ValidationFormmui from "./components/ValidationFormmui";
 // import Imglistmui from "./components/Imglistmui";
 // import Ratingmui from "./components/Ratingmui";
@@ -53,7 +56,10 @@ function App() {
     // <Ratingmui />
     // <Imglistmui />
     // <ValidationFormmui />
-    <DataGridmui />
+    // <DataGridmui />
+    // <Iconsmui />
+    // <GridSystemmui />
+    <Rzsponsivenessmui />
   );
 }
 
