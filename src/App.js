@@ -1,5 +1,6 @@
 import "./App.css";
-import Rzsponsivenessmui from "./components/Rzsponsivenessmui";
+import ResponsiveNavbar from "./components/ResponsiveNavbar";
+// import Rzsponsivenessmui from "./components/Rzsponsivenessmui";
 // import GridSystemmui from "./components/GridSystemmui";
 // import Iconsmui from "./components/Iconsmui";
 // import DataGridmui from "./components/DataGridmui";
@@ -29,6 +30,7 @@ import Rzsponsivenessmui from "./components/Rzsponsivenessmui";
 // import Buttonsmui from './components/Buttonsmui';
 // import Typographymui from './components/Typographymui';
 
+const linkArray = ["Products", "Services", "Overview", "Contact Us"];
 function App() {
   return (
     // <Typographymui/>
@@ -59,7 +61,8 @@ function App() {
     // <DataGridmui />
     // <Iconsmui />
     // <GridSystemmui />
-    <Rzsponsivenessmui />
+    // <Rzsponsivenessmui />
+    <ResponsiveNavbar links={linkArray} />
   );
 }
 
