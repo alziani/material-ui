@@ -31,7 +31,12 @@ const ResponsiveNavbar = ({ links }) => {
     >
       <Toolbar>
         {isMatch ? (
-          <DrawerNav />
+          <>
+            <Typography>
+              <ShoppingBasketIcon />
+            </Typography>
+            <DrawerNav links={links} />
+          </>
         ) : (
           <Grid container sx={{ placeItems: "center" }}>
             <Grid item xs={2}>
