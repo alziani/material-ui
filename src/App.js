@@ -1,5 +1,6 @@
 import "./App.css";
-import ResponsiveNavbar from "./components/ResponsiveNavbar";
+import LoginForm from "./components/LoginForm";
+// import ResponsiveNavbar from "./components/ResponsiveNavbar";
 // import Rzsponsivenessmui from "./components/Rzsponsivenessmui";
 // import GridSystemmui from "./components/GridSystemmui";
 // import Iconsmui from "./components/Iconsmui";
@@ -30,7 +31,7 @@ import ResponsiveNavbar from "./components/ResponsiveNavbar";
 // import Buttonsmui from './components/Buttonsmui';
 // import Typographymui from './components/Typographymui';
 
-const linkArray = ["Products", "Services", "Overview", "Contact Us"];
+// const linkArray = ["Products", "Services", "Overview", "Contact Us"];
 function App() {
   return (
     // <Typographymui/>
@@ -62,7 +63,8 @@ function App() {
     // <Iconsmui />
     // <GridSystemmui />
     // <Rzsponsivenessmui />
-    <ResponsiveNavbar links={linkArray} />
+    // <ResponsiveNavbar links={linkArray} />
+    <LoginForm />
   );
 }
 
